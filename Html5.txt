@@ -1,0 +1,93 @@
+    <h1> </h1> até <h6> </h6> - Titulo
+    <p> </p> - Paragrafo
+
+    <b> <b/> - Negrito (não semântico)
+    <strong> </strong> - Negrito (semântico)
+    <i> </i> - Itálico (não semântico)
+    <em> </em> - Itálico (semântico)
+
+    <mark> </mark> - Texto Marcado
+    <mark style="background-color: white;"> </mark> - Alterar a cor da marca pelo HTML
+
+    <big> </big> - Texto Grande (Tag Obsoleta)
+    <small> </small> - Texto Pequeno
+
+    <del> </del> - Texto Deletado / Riscado
+    <ins> </ins> - Texto Inserido / Sublinhado (semântica)
+    <u> </u> - Texto Inserido / Sublinhado (não semântica)
+
+    <q> </q> - Citação de texto simples (semântica)
+    <blockquote> </blockquote> - Citação de texto completa (semântica)
+    <blockquote cite="Url de onde foi tirada a citação"> </blockquote>
+
+    <abbr> </abbr> - Abreviação de texto
+    <abbr title="HyperText Markup Language">HTML</abbr>
+
+    <sup> </sup> - Texto Sobrescrito
+    <sub> </sub> - Texto Subscrito
+
+    <code> </code> - Texto para Código-fonte
+    <pre> </pre> - Identação de texto
+
+    <bdo> </bdo> - Texto Invertido
+
+    <ol> </ol> - Listas Ordenadas 
+    <ol type="(1, A, a, I, i)"> </ol>
+    <ul> </ul> - Listas não Ordenadas
+    <ul type="disc, circle, square"> </ul>
+    <li> </li> - Item da Lista
+
+    <dl> </dl> - Lista de Definição
+    <dt> </dt> - Titulo
+    <dd> </dd> - Descrição
+
+    <a hrf="url do site"> </a> - Adicionar Link
+    <a hrf="url do site" target="_blank" rel="external"> </a>
+    target="_self" - Abrir na própria aba
+    rel="nofollow" - Para a busca não seguir o site oferecido (Sem Aval)
+    ctrl + espaço - Procurar arquivo (./ Próxima Pasta) (../ Pasta Anterior)
+
+    <hr> - Linha horizontal
+    <br> - Quebra de linha
+
+    <img src="(Arquivo de Imagem)" alt="(Texto caso a imagem não possa ser carregada)">
+    <img src="(Dica - Apertar Ctrl + Espaço)" alt="">
+
+    <picture> </picture> - Imagem dinámica de acordo com o tamanho da janela
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+
+    <video src="midia/Limao-720.mp4" controls width="700" poster="imagens/mirtilo.jpg"></video>
+    <video controls width="700" poster="imagens/mirtilo.jpg">
+        <source src="midia/Limao-720.mp4" type="video/mp4">
+    </video>
+    poster - (tumbnail do video) (imagem)
+
+    
+    <audio> </audio> - Inserir audio
+    <audio preload="" controls loop autoplay> 
+        <source src="midia/Yummu.mp3" type="audio/mpeg">
+        <source src="midia/Yummu.ogg" type="audio/ogg">
+        <source src="midia/Yummu.wav" type="audio/wav">
+    </audio>
+    preload="auto (download do audio completo), metadata (download das informações), none(sem download)"
+    controls (controla de play, pause, volume)
+    loop (repetir o audio quando acabar)
+    autoplay (tomar o audio automaticamente quando abrir a pagina)
+   
+   
+   
+   
+    // Simbulos
+    &lt; - <
+    &gt; - > 
+    &reg; - Marca Registrada
+    &copy; - Copywrite
+    &trade; - TM
+
+    // Emoji
+    (&#x + Código do Emoji) - &#x1F308
+    
